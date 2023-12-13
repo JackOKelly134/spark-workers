@@ -18,6 +18,7 @@ def get_api_key() -> str:
 def hello():
     return "Add workers to the Spark cluster with a POST request to add"
 
+
 @app.route("/test")
 def test():
     #return "Test" # testing 
